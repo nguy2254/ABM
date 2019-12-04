@@ -1,2 +1,4 @@
 # ABM
-Implementation of ABM model in Python Mesa
+Implementation of popular ABM models in Python Mesa
+
+1. Money Model 
