@@ -75,7 +75,7 @@ class MoneyModel(Model):
       #Place agent a in their random cordinate x,y 
       self.grid.place_agent(a,(x,y))
   
-    self.datacollector = DataCollector(model_reporters = \{'Gini': compute_gini}, agent_reporters = {'Wealth': 'wealth'})
+    self.datacollector = DataCollector(model_reporters = {'Gini': compute_gini}, agent_reporters = {'Wealth': 'wealth'})
   #Create the step:
   def step(self):
     #Collect data from agent and model
